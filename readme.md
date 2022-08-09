@@ -5,3 +5,6 @@ map_select currently only supports Portuguese :)
 
 # (PT-BR) map_select
 Não sabe que mapa jogar? O map select te ajuda!
+
+# Comandos
+.choose "jogo" "modo de jogo/map_pool"
