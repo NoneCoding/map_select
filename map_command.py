@@ -21,7 +21,7 @@ class Map(commands.Cog):
             await ctx.send("Esse jogo não é suportado!")
 
         if game in ["csgo", "cs:go"]:
-            if mode == "active duty":
+            if mode == "active_duty":
                 return await ctx.send("Seu mapa é: {}".format(choice(Map.csgo_active_duty)))
 
             elif mode == "reserve":

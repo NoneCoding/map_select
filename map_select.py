@@ -10,7 +10,7 @@ MAP_KEY = os.getenv("MAP_KEY")
 
 intents = nextcord.Intents.all()
 
-bot = commands.Bot(prefix=".", intents=intents)
+bot = commands.Bot(command_prefix=".", intents=intents)
 
 bot.add_cog(Map(bot))
 
